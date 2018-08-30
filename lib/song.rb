@@ -36,6 +36,7 @@ class Song
         ans
     end
 
+    #bad DRY
     def self.artist_count
         un = @@artists.uniq
         ans = {}
